@@ -1,6 +1,6 @@
 Java programs dealing with various kinds of linear equation/matrix solving programs.
 
-#Determinant Finder:
+# Determinant Finder:
 Uses a row-reduction to upper-triangle matrix algorithm.
 
 Sample Run:
@@ -10,13 +10,13 @@ Enter your matrix:
 3 2 1
 Determinant: -29.0
 
-Linear Equation Solver:
+# Linear Equation Solver:
 Uses matrix reduction to solve the linear system. Currently can only use up to 20 variables, although that is easy to change. Can handle free variables, redundant equations, and unsolvable systems. 
 
 TODO:
 User IO could be a bit more robust, but the way I have it set up works fine, just causes some (minor) inconveniences (namely, all variables are of the form "ax1","bx2", etc. and it can't handle subtraction, only negative coefficients).
 
-#Sample Runs:
+Sample Runs:
 Please enter your equations in the form:
 3x1 + -2x2 + 5x5 = 3
 Current maximum number of variables: 20
@@ -53,7 +53,7 @@ Solutions:
 x1 = -2x3 + 0
 x2 = -1x3 + 0
 
-#Balancing Chemical Equations:
+# Balancing Chemical Equations:
 Solution by converting the chemical reaction to a linear system of equations, then finding a scalar to multiply through by to make everything an integer.
 
 TODO:
